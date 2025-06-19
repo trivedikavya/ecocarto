@@ -13,7 +13,7 @@ This new version delivers a stunning, responsive, and functional experience that
 
 ## 🔗 Live Demo
 **🔗 Live Site:** [https://v0-eco-health-map-project.vercel.app/](https://v0-eco-health-map-project.vercel.app/)  
-**💻 GitHub Repo:** [https://github.com/kavyatrivedi/ecocarto-hackathon-version](https://github.com/kavyatrivedi/ecocarto-hackathon-version)
+
 
 ---
 
