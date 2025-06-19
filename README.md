@@ -58,6 +58,8 @@ To align with the **Frontend Battle Round 1** rules:
 ### 🚤 AI Tools Used
 - ChatGPT: Project planning, layout decisions, and performance optimization ideas
 - GitHub Copilot: Code auto-suggestions
+- Also Used: ChatGPT, Cursor, VO
+
 
 ---
 
