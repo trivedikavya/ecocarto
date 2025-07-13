@@ -1,4 +1,4 @@
-# EcoCarto X Frontend Battle 2.0 🌿
+# EcoCarto 
 
 **A Remixed Environmental Health Dashboard**
 
@@ -91,4 +91,4 @@ To align with the **Frontend Battle Round 1** rules:
 ---
 
 **Made with ❤️ by Kavya Trivedi**  
-for Frontend Battle 2.0 ✨
+
