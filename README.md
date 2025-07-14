@@ -5,8 +5,7 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://ecocarto.vercel.app/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
-![EcoCarto Interface](https://example.com/ecocarto-screenshot.jpg)  
-*Interactive map showing ecological risk zones (example image)*  
+
 
 ## 🚀 Overview  
 EcoCarto is an interactive web-based Environmental Health Map that visualizes the ecological status of any location using real-time air quality (AQI) and vegetation index (NDVI) data. Born from the need to address rising pollution and climate challenges, this tool empowers individuals, planners, and communities to make informed environmental decisions.  
