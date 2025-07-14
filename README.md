@@ -26,7 +26,7 @@ EcoCarto is an interactive web-based Environmental Health Map that visualizes th
 ---
 
 ## 🛠️ Tech Stack  
-![Low-Code](https://img.shields.io/badge/lowcode-red?Cursor&V0) 
+![Low-Code](https://img.shields.io/badge/lowcode-red?logo=Cursor&V0) 
 ![React](https://img.shields.io/badge/React-18.2-blue?logo=react) 
 ![Next.js](https://img.shields.io/badge/Next.js-14.0-black?logo=next.js) 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-blueviolet?logo=tailwind-css)  
