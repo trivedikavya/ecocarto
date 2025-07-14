@@ -44,3 +44,13 @@ B[Vegetation] --> NASA_EarthData
 C[Weather] --> Open-Meteo
 D[Geocoding] --> Google_Maps
 ```
+
+### Roadmap
+```mermaid
+graph TD
+    A[Next.js Server Components] --> B[Database Integration]
+    B --> C[Predictive ML Models]
+    C --> D[Pollution Forecasting]
+    A --> E[PWA Offline Mode]
+    B --> F[User Report History]
+```
