@@ -1,94 +1,47 @@
-# EcoCarto 
+# 🌍 EcoCarto: Environmental Health Mapping Platform  
 
-**A Remixed Environmental Health Dashboard**
+**Making ecological awareness accessible and actionable for everyone**  
 
----
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://ecocarto.vercel.app/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
-## 🚀 Overview
-EcoCarto was originally designed to make ecological awareness more accessible and actionable using real-time and historical environmental data. For **Frontend Battle 2.0**, EcoCarto has been **redesigned** and **enhanced** based on the hackathon's design assets and rules, combining precise replication with smart innovation.
+![EcoCarto Interface](https://example.com/ecocarto-screenshot.jpg)  
+*Interactive map showing ecological risk zones (example image)*  
 
-This new version delivers a stunning, responsive, and functional experience that merges **data, design, and impact.**
+## 🚀 Overview  
+EcoCarto is an interactive web-based Environmental Health Map that visualizes the ecological status of any location using real-time air quality (AQI) and vegetation index (NDVI) data. Born from the need to address rising pollution and climate challenges, this tool empowers individuals, planners, and communities to make informed environmental decisions.  
 
----
-
-## 🔗 Live Demo
-**🔗 Live Site:** [https://v0-eco-health-map-project.vercel.app/](https://v0-eco-health-map-project.vercel.app/)  
-
+**Core Solution**: Combines real-time ecological data with historical context through intuitive visualizations and actionable insights.  
 
 ---
 
-## 📊 What It Does
-EcoCarto is a responsive web platform that shows environmental health of any location using:
-- ✅ **Eco Score (A-F)** based on AQI, NDVI, temperature & humidity
-- ⬆️ **Historical Trends** viewer (2015–2024)
-- 🌳 **Smart Plantation Suggestions**
-- 🌍 **Color-coded ecological zones** (Green / Moderate / High Risk)
-- 🔧 **Interactive Map + Chart Integration**
-- 📄 **Downloadable Environmental Reports**
+## ✨ Key Features  
+- **🌱 Eco Score System** - A-F grade combining AQI, vegetation, humidity & temperature  
+- **🟢🔴 Risk Visualization** - Color-coded zones (Green/Moderate/High Risk)  
+- **📅 Historical Trends** - Environmental data from 2015 to present  
+- **🌿 Smart Plantation** - Data-driven recommendations for degraded areas  
+- **📊 Downloadable Reports** - PDF exports for ecological planning  
+- **🔥 Interactive Heatmaps** - AQI/NDVI visualization layers  
+- **📍 Live Location Search** - With geolocation suggestions  
 
 ---
 
-## 🌐 Tech Stack
-- **Frontend:** React + Next.js + Tailwind CSS
-- **Map:** Leaflet.js + OpenStreetMap
-- **Charts:** Recharts / Chart.js
-- **Animations:** Framer Motion
-- **Deployment:** Vercel
-- **Extras:** TypeScript, shadcn/ui, custom hooks
+## 🛠️ Tech Stack  
+### Frontend  
+![React](https://img.shields.io/badge/React-18.2-blue?logo=react) 
+![Next.js](https://img.shields.io/badge/Next.js-14.0-black?logo=next.js) 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-blueviolet?logo=tailwind-css)  
 
----
+### Visualization  
+![Leaflet.js](https://img.shields.io/badge/Leaflet.js-1.9-green?logo=leaflet) 
+![Recharts](https://img.shields.io/badge/Recharts-2.0-lightgrey) 
+![Google Maps API](https://img.shields.io/badge/Google_Maps_API-v3.0-blue?logo=google-maps)  
 
-## 🚧 Built for This Hackathon
-To align with the **Frontend Battle Round 1** rules:
-
-### 🔹 Features Implemented
-- 🌚 **Light/Dark Mode** toggle with localStorage
-- ⏳ **Custom Loader** from provided assets
-- 🌐 **Sticky Navbar** with smooth scroll links
-- 🔄 **At least 6 visual features** from assets recreated (graph, stats, logos, video intro)
-- 📊 **Responsive Design** on all devices
-
-### 💡 Extra Innovations
-- Interactive graph filtering
-- Hover & scroll animations
-- Eco Score badge transitions
-- Enhanced zone transitions on the map
-- Smooth intro animations on homepage
-
-### 🚤 AI Tools Used
-- ChatGPT: Project planning, layout decisions, and performance optimization ideas
-- GitHub Copilot: Code auto-suggestions
-- Also Used: ChatGPT, Cursor, VO
-
-
----
-
-## 🎓 What We Learned
-- Integrating multiple real-world APIs
-- Optimizing map performance with large datasets
-- Building with Leaflet + React
-- Creating intuitive UX for complex ecological data
-- Handling async data + caching + lazy loading
-
----
-
-## 🏆 Accomplishments
-- Built under intense constraints of a 48-hour sprint
-- Delivered a fully working, live environmental analytics tool
-- Designed an original "Eco Score" grading algorithm
-- Recreated hackathon assets in our own visual theme
-- Aligned to social impact + sustainable tech goals
-
----
-
-## 🌐 Future Scope
-- Convert to Server Components (Next.js)
-- Backend API routes for more control
-- User account + data save functionality
-- Predictive ML models for future forecasting
-- PWA with offline sync
-
----
-
-**Made with ❤️ by Kavya Trivedi**  
-
+### Data APIs  
+```mermaid
+graph LR
+A[Air Quality] --> OpenAQ
+B[Vegetation] --> NASA_EarthData
+C[Weather] --> Open-Meteo
+D[Geocoding] --> Google_Maps
+```
