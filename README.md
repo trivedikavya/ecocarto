@@ -2,7 +2,7 @@
 
 **Making ecological awareness accessible and actionable for everyone**  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://ecocarto.vercel.app/) 
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://v0-eco-health-map-project.vercel.app/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 
